@@ -1,0 +1,39 @@
+ #parte1{
+    justify-content: center;
+    text-align: center;
+ }
+ 
+ #juego {display: flex;}
+ 
+ #IMAGENPORTADA{
+    flex: 0.2;
+    padding: 15px;}
+
+#DESCRIPCIÓN{
+    flex: 0.4;
+    text-align: justify;
+    padding: 15px;}
+
+#juegoplat{
+    flex: 0.2;
+    text-align: justify;
+    padding: 15px;
+}
+
+ #VALORACIONES{display: flex;}
+
+ #COMPRAR{
+    flex: 0.2;
+    padding: 15px;
+    text-align: justify;
+ }
+ #COMPRAR a{
+
+ }
+ 
+ #COMPRAR p{font-size: 50px;
+            margin-top: 0;
+        color: red;}
+ 
+
+ 
