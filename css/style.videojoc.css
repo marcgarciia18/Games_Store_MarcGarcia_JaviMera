@@ -1,6 +1,26 @@
+header{
+    background-color: whitesmoke;
+}
+
+body{
+    background-image: url(../img/black_wallpaper_background.jpg);
+    color: white;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+#titulo{
+    margin-left: 110px;
+ }
+ 
  #parte1{
     justify-content: center;
     text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
  }
  
  #juego {display: flex;}
@@ -36,4 +56,58 @@
         color: red;}
  
 
- 
+
+    #ingame{
+        margin-left: 250px;
+        margin-right: 300px;
+        margin-top: 50px;
+    }
+
+    @media screen and (max-width: 900px) {
+        #titulo{
+            text-align: justify;
+            justify-content: center;
+            margin-right: 110px;
+        }
+       
+        #juego {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+      
+          #juego section {
+            margin: 20px;
+          }
+      
+          #IMAGENPORTADA img {
+            width: 100%;
+            max-width: 300px; 
+          }
+          
+          #juegplat img {
+            width: 100%;
+            max-width: 100px;
+          }
+        
+
+          #parte1, #ingame {
+            margin: 20px;
+          }
+        
+          #ingame img {
+            max-width: 100%;
+            height: auto;
+          }
+        
+          #ingame iframe {
+            max-width: 100%;
+            height: auto;
+          }
+
+    }
+            
+        
+          
+          
+          
